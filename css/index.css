@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+
+.body{
+    background: url("../assets/gamebg.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+}
+#scorecard{
+   
+    margin-top: 53PX;
+margin-right: 9px;
+margin-left: 19px;
+height: 34vh;
+    padding: 12px;
+    font-size: -webkit-xxx-large;
+   
+}
+#high{
+   
+    margin-top: 53PX;
+    margin-right: -7px;
+    margin-left: 35px;
+    height: 34vh;
+    padding: 12px;
+    font-size: -webkit-xxx-large;
+       
+}
+#board{
+    background:linear-gradient( rgb(173, 255, 173), rgb(238, 243, 171) );
+    width: 92vmin;
+    height:92vmin;
+    margin-top: 3vh;
+    box-shadow: 4px 5px 23px gray;
+    border: 3px solid black;
+    margin-left: 15vh; 
+    display: grid;
+    grid-template-rows: repeat(30,1fr);
+    grid-template-columns: repeat(30,1fr);
+
+
+}
+.head{
+    background : linear-gradient(red,rgb(251, 255, 41));
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 100px;
+    box-shadow: 4px 5px 12px grey;
+    transform: scale(1.4);
+}
+.snake{
+    background-color: rgb(0, 255, 76);
+    box-shadow: 4px 5px 12px grey;
+    border-radius: 5px;
+    border : 1px solid black;
+}
+.food{
+    box-shadow: 4px 5px 12px grey;
+    background : linear-gradient(yellow,blue);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 9px;
+    
+}

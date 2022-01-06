@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{   
+    background: url("../assets/wel2.jpg");
+    min-height: 100vh;
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+       
+}
+h1{
+    margin-bottom: 83px;
+}
+#intro{
+    background-color: #0000003b;
+    font-size: -webkit-xxx-large;
+    margin-top:100px;
+}
+#intro a{
+    margin-left: 32px;
+    text-decoration: none;
+}
